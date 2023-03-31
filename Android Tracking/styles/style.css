@@ -1,0 +1,53 @@
+body {
+  padding-top: 75px;
+  padding-bottom: 200px;
+  background-color: aqua;
+}
+
+#emptyLibraryText {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+#footer {
+  margin: 0 auto;
+  width: 450px;
+}
+
+#header {
+  text-align: center;
+}
+
+#headerLogo {
+  margin-bottom: 25px;
+}
+
+#libraryCards .card {
+  float: none;
+  margin: 0px auto 25px auto;
+  width: 500px !important;
+}
+
+.divider {
+  margin: 50px auto;
+  width: 35vw;
+}
+
+@media only screen and (max-width: 800px) {
+  #footer {
+    width: 350px;
+  }
+  #libraryCards .card {
+    width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #footer {
+    width: 250px;
+  }
+  #libraryCards .card {
+    width: 300px !important;
+  }
+}
